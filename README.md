@@ -1,16 +1,81 @@
-# React + Vite
+# Tienda de Productos
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Proyecto final de asignatura Programación de Componentes de IPLACEX.
 
-Currently, two official plugins are available:
+## Descripción
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+Esta aplicación corresponde a una tienda de productos desarrollada con React.
 
-## React Compiler
+La aplicación permite ver productos, agregarlos al carrito, registrar nuevos productos, registrar usuarios y subir archivos.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Tecnologías utilizadas
 
-## Expanding the ESLint configuration
+- React
+- JavaScript
+- Vite
+- Bootstrap
+- Firebase
+- Firestore Database
+- Firebase Authentication
+- Firebase Storage
+- Cordova
+- Android Studio
+- Gradle
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Funcionalidades
+
+### Productos y carrito
+
+La aplicación muestra una lista de productos y permite agregarlos al carrito mediante componentes de React.
+
+Se utiliza `map()` para mostrar los productos y `state` para actualizar el carrito.
+
+### Registro de productos
+
+Permite ingresar:
+
+- Nombre del producto
+- Precio
+- Categoría
+
+Los datos se almacenan en Firebase Firestore.
+
+### Registro de usuarios
+
+Permite registrar usuarios mediante coreo electrónico y contraseña utilizando Firebase Authentication.
+
+### Subir archivos
+
+Permite seleccionar y subir archivos utilizando Firebase Storage.
+
+### Aplicación Android
+
+El proyecto fue preparado para Android utilizando Cordova.
+
+Se generó un APK, se alineó y se firmó para poder instalarlo y probarlo en un dispositivo Android real.
+
+## Firebase
+
+El proyecto usa Firebase para:
+
+- Almacenar productos mediante Firestore.
+- Registrar usuarios mediante Authentication.
+- Almacenar archivos mediante Storage.
+
+## Publicación
+
+El proyecto se publico en:
+
+### GitHub
+
+https://github.com/leslieaguirraram/tienda-productos-iplacex
+
+### Netlify
+
+https://tienda-productos-iplacex.netlify.app
+
+## Alumna
+
+Leslie Aguirre Ramos
+
+IPLACEX
